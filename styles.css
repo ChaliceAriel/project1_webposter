@@ -1,0 +1,50 @@
+html, body, #wrapper, #right_column {
+	height: 100%;
+}
+body {
+    background-color: #fff;
+    font-family: Verdana;
+}
+
+h1, h3, h4, p {
+
+    color: #fff;
+}
+
+h3, h4 {
+	font-weight:normal;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#wrapper {
+ width:400px;
+ margin: 0 auto;
+ padding: 10px;
+ position:relative;
+ overflow: hidden;
+ background-color: #222;
+}
+
+#left_column {
+ padding: 10px 0; 
+ float:left;
+ width:50%;
+}
+
+#right_column {
+ padding: 10px 0; 
+ display: table	;
+ text-align: center;
+ width: 200px;
+}
+
+#right_column .content {
+ margin-top: 230px;
+}
